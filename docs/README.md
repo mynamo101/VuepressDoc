@@ -1,14 +1,14 @@
 ---
 home: true
-title: Home
+title: Sound Jaeger
 heroImage: https://vuejs.press/images/hero.png
 actions:
   - text: Get Started
-    link: /getting-started.html
+    link: /get-started.html
     type: primary
 
-  - text: Introduction
-    link: https://vuejs.press/guide/introduction.html
+  - text: About Us
+    link: https://soundjaeger.com/about-us
     type: secondary
     
 features:
