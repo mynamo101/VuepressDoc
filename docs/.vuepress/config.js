@@ -6,8 +6,8 @@ import { mermaidWrapperPlugin } from 'vuepress-plugin-mermaid-wrapper'
 export default defineUserConfig({
   lang: 'zh-TW',
 
-  title: 'Sound AJeger',
-  description: 'Best way to know about sound design',
+  title: 'Sound Jaeger',
+  description: 'Everything You Need To Know About Sound',
 
   theme: defaultTheme({
     logo: 'https://soundjaeger.com/wp-content/uploads/資產-33.svg',
