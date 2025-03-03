@@ -4,13 +4,13 @@ import { viteBundler } from '@vuepress/bundler-vite'
 import { mermaidWrapperPlugin } from 'vuepress-plugin-mermaid-wrapper'
 
 export default defineUserConfig({
-  lang: 'en-US',
+  lang: 'zh-TW',
 
-  title: 'VuePress',
-  description: 'My first VuePress Site',
+  title: 'Sound AJeger',
+  description: 'Best way to know about sound design',
 
   theme: defaultTheme({
-    logo: 'https://vuejs.press/images/hero.png',
+    logo: 'https://soundjaeger.com/wp-content/uploads/資產-33.svg',
 	
     navbar: ['/', '/get-started' , 'Test-Page'],	  	  
   }),

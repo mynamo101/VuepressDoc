@@ -1,7 +1,7 @@
 ---
 home: true
-title: Sound Jaeger
-heroImage: https://vuejs.press/images/hero.png
+title: Home
+heroImage: https://soundjaeger.com/wp-content/uploads/資產-34.svg
 actions:
   - text: Get Started
     link: /get-started.html
