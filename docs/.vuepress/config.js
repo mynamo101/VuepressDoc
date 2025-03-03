@@ -1,6 +1,7 @@
 import { defaultTheme } from '@vuepress/theme-default'
 import { defineUserConfig } from 'vuepress/cli'
 import { viteBundler } from '@vuepress/bundler-vite'
+import { mermaidWrapperPlugin } from 'vuepress-plugin-mermaid-wrapper'
 
 export default defineUserConfig({
   lang: 'en-US',
@@ -10,9 +11,14 @@ export default defineUserConfig({
 
   theme: defaultTheme({
     logo: 'https://vuejs.press/images/hero.png',
-
-    navbar: ['/', '/get-started' , 'Test-Page'],
+	
+    navbar: ['/', '/get-started' , 'Test-Page'],	  	  
   }),
-
+	
+	plugins: [
+    mermaidWrapperPlugin({
+      /* options */
+    }),
+  ],
   bundler: viteBundler(),
 })

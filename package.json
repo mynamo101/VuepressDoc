@@ -18,6 +18,7 @@
     "vuepress": "^2.0.0-rc.7"
   },
   "dependencies": {
-    "express": "^4.21.2"
+    "express": "^4.21.2",
+    "vuepress-plugin-mermaid-wrapper": "^1.17.0"
   }
 }
