@@ -12,7 +12,7 @@ export default defineUserConfig({
   theme: defaultTheme({
     logo: 'https://soundjaeger.com/wp-content/uploads/資產-33.svg',
 	
-    navbar: ['/', '/get-started' , 'Test-Page','我們的服務'],	  	  
+    navbar: ['/', '/get-started' , 'Test-Page','/Services'],	  	  
   }),
 	
 	plugins: [
