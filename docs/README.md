@@ -1,16 +1,16 @@
 ---
 home: true
 title: Home
-heroImage: https://vuejs.press/images/hero.png
+heroImage: https://soundjaeger.com/wp-content/uploads/資產-34.svg
 actions:
   - text: Get Started
-    link: /getting-started.html
+    link: /get-started.html
     type: primary
 
-  - text: Introduction
-    link: https://vuejs.press/guide/introduction.html
+  - text: About Us
+    link: https://soundjaeger.com/about-us
     type: secondary
-
+    
 features:
   - title: Simplicity First
     details: Minimal setup with markdown-centered project structure helps you focus on writing.
